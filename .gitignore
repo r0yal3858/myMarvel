@@ -11,6 +11,8 @@
 # production
 /build
 
+/src/component/video.mp4
+
 # misc
 .DS_Store
 .env.local

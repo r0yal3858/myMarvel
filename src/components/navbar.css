@@ -1,0 +1,38 @@
+.navbar {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.83);
+}
+.navbar__logo p {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  height: 30px;
+  background: red;
+  margin: 0px;
+  padding: 5px;
+}
+.navbar__list_container {
+  height: 30px;
+}
+.navbar__list {
+  list-style: none;
+}
+.navbar__list li {
+  display: inline-block;
+  color: white;
+  margin: 2px 50px;
+}
+.navbar__list li a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 5px;
+  font-weight: bold;
+}
+
+.navbar__list a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}

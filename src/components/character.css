@@ -1,0 +1,42 @@
+.character__container {
+  position: relative;
+  margin: 25px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+.character__image {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.character__details--container {
+  background: rgba(230, 230, 230, 0.8);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  bottom: 0;
+  height: fit-content;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  transition: 0.1s;
+  z-index: 5;
+  transform: translateY(100%);
+  display: block;
+}
+.character__details--name {
+  padding: 10px 10px;
+  font-weight: bolder;
+  color: black;
+}
+
+.character__container:hover .character__details--container {
+  transform: translateY(0%);
+  z-index: 10;
+  padding: 10px 0px;
+}
+
+.character__details--description {
+  font-size: x-small;
+  padding: 5px 10px;
+}
