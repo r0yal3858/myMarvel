@@ -1,6 +1,7 @@
+import React from "react";
 // import axios from "axios";
 import "./character.css";
-export const Characters = () => {
+const Characters = () => {
   let characters = [
     {
       id: 1011334,
@@ -7322,3 +7323,5 @@ export const Characters = () => {
     </>
   );
 };
+
+export default Characters;

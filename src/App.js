@@ -1,10 +1,13 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar";
-import { Comics } from "./components/Comics";
-import { Characters } from "./components/Characters";
+import { Navbar } from "./components/Navbar/Navbar";
+import { Comics } from "./components/Comics/Comics";
+import { Events } from "./components/Events/Events";
+import { Series } from "./components/Series/Series";
+import Characters from "./components/Characters/Characters";
+import { Home } from "./components/Home/Home";
+import { Error404 } from "./components/Error404/Error404";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Error404 } from "./components/Error404";
-import { Home } from "./components/Home";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: "/comics",
     element: <Comics></Comics>,
+  },
+  {
+    path: "/events",
+    element: <Events></Events>,
+  },
+  {
+    path: "/series",
+    element: <Series></Series>,
   },
   {
     path: "*",

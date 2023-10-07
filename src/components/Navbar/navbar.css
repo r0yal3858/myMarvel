@@ -17,6 +17,7 @@
 }
 .navbar__list {
   list-style: none;
+  padding: 0;
 }
 .navbar__list li {
   display: inline-block;
