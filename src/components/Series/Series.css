@@ -1,0 +1,37 @@
+.series__list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px 10px;
+}
+
+.series__item {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 250px;
+  margin: 20px auto;
+}
+.series__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.item__img img {
+  height: 300px;
+  width: 250px;
+}
+
+.item__details {
+  position: absolute;
+  bottom: 0;
+
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.477);
+  backdrop-filter: blur(2px);
+  width: 100%;
+  transition: 0.3s;
+}
+.item__details--title {
+  padding: 10px 15px;
+}

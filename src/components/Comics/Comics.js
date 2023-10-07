@@ -1,3 +1,4 @@
+import React from "react";
 import "./comic.css";
 export const Comics = () => {
   let comics = [
